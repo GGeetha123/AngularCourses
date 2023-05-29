@@ -1,0 +1,71 @@
+body {
+    font-size: 9px;
+    color: red;
+}
+#idH1 {
+    background-color: rgb(56, 54, 54);
+    color: whitesmoke; /* text color */
+    height: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 100px;
+}
+#idT {
+    border: 2px solid whitesmoke;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 5px 5px 15px rgb(240, 234, 234);
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+}
+#menu {
+    
+    float: left;
+}
+
+#menu li {
+     float: left;
+     margin-left: 30px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 20px;
+     font-weight: bold;
+     list-style-type: none;
+     cursor: pointer;
+}
+
+#menu li:hover {
+    float: left;
+    margin-left: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: whitesmoke;
+    color:rgb(56, 54, 54);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#slide-area{
+    height: 300px;
+    background-color: rgb(174, 171, 171);
+
+}
+
+#slide-area #slide-show{
+    height: 100%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+}
+
+#slide-area #slide-show img{
+    height: 100%;
+    width: 100%;
+}
