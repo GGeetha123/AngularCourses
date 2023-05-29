@@ -29,3 +29,35 @@ console.log(b)
 console.log(a.length + " is a length of the array")
 console.log(a[b])
 console.log('-------------------------------')
+/* result
+undefined
+-------------------------------
+44
+-------------------------------
+[ 1, 2, 44, 4, 5, <6 empty items>, 100 ]
+100
+-------------------------------
+[ 1, 2, 44, 4, 5, <6 empty items>, 100, '-23': 2020 ]
+12 is a length of the array
+2020
+[ 1, 2, 44, 4, 5, <6 empty items>, 100, '-23': 2020, name: 'Geetha' ]
+12 is a length of the array
+Geetha
+-------------------------------
+[
+  1,
+  2,
+  44,
+  4,
+  5,
+  <6 empty items>,
+  100,
+  '-23': 2020,
+  name: 'Geetha',
+  '[object Object]': 'Javascript object'
+]
+{ sno: 1, name: 'Geetha' }
+12 is a length of the array
+Javascript object
+-------------------------------
+*/

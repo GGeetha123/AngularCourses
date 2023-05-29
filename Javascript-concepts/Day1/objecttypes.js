@@ -11,3 +11,25 @@ console.log(person)
 console.log(person.name)
 console.log(person["sex"])
 console.log(person['address']['street'])
+/* result
+[ 3, 6, 234, 567, 1 ]
+[
+  100,
+  'Geetha',
+  false,
+  'Ganesan',
+  { sno: 1, name: 'Geetha' },
+  [ 3, 6, 234, 567, 1 ]
+]
+Geetha
+1
+{
+  sno: 1,
+  name: 'Geetha',
+  sex: 'Female',
+  address: { street: 'MNagar', doorno: 10 }
+}
+Geetha
+Female
+MNagar
+*/

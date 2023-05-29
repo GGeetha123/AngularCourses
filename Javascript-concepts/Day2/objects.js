@@ -15,3 +15,23 @@ for(let x in person)
     person.skills = ['C','C++','C#']
     console.log(Object.keys(person))
     console.log('-------------------------------')
+/* result
+sno  ===  1
+name  ===  Geetha
+city  ===  Trichy
+-------------------------------
+[ 'sno', 'name', 'city' ]
+-------------------------------
+0  ===  23
+1  ===  45
+2  ===  70
+3  ===  56
+sno  ===  100
+name  ===  Geetha
+[ '0', '1', '2', '3', 'sno', 'name' ]
+[ 23, 45, 70, 56, '100', 'Geetha' ]
+-------------------------------
+[ 'sno', 'name', 'city', 'skills' ]
+-------------------------------
+
+*/
