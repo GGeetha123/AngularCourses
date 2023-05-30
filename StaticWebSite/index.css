@@ -63,9 +63,30 @@ body {
     margin-left: 10%;
     width: 80%;
     background-color: white;
+    position: relative;
 }
 
-#slide-area #slide-show img{
+#slide-area #slide-show #img1{
     height: 100%;
     width: 100%;
+}
+.icon {
+    width: 30px;
+    height:30px;
+    cursor: pointer;
+}
+#left-icon {
+    position:absolute;
+    top: 45%;
+    left: 10%;
+
+}
+#right-icon {
+    position:absolute;
+    top: 45%;
+    right: 10%;
+
+}
+.icon:hover {
+    transform: scale(2,2);
 }
