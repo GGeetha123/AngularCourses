@@ -19,5 +19,5 @@ if(arrowType == "left")
 {
     Idx = Idx==5?0:--Idx
 }
-document.getElementById("img1").src = images[Idx]
+document.getElementById("img1").src = "images/" + images[Idx]
 }
