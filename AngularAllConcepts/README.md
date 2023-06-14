@@ -25,3 +25,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+Review menu --- code flow
+1.modles.ts - creating the interface for reviews
+2.reviews.service.ts - calling the URL using the kewword HttpClient and Observable.
+3.reviews.component.ts - inside ngOnInit function subscribe is used with next and error using arrow functions, calling the function created in reviews.service.ts
+4.review-box.component.html - current values to be shown using DIV tag - this only shows the values in the screen as expected 
+5.review-box.component.css - the styling done for the classes and ids created in point 3
+6.review-box.component.ts - values are initialized using variable- here named as current
+7.reviews.component.html - <app-review-box *ngFor = "let x of reviews" [review] = "x"></app-review-box>

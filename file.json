@@ -1,0 +1,41 @@
+{
+
+ 
+
+    "contacts"  : [
+
+         {
+
+            "title" : "Head Office",
+
+            "address" : " no 8 , Mount road",
+
+            "city" : "Chennai",
+
+            "code" : 600003,
+
+            "image":"chennai.jpg"
+
+         },
+
+
+         {
+
+            "title" : "Development Center",
+
+            "address" : " no 153 , MG Road",
+
+            "city" : "Bengaluru",
+
+            "code" : 580090,
+
+            "image":"bengaluru.jpg"
+
+         }
+
+
+    ]
+
+ 
+
+}
