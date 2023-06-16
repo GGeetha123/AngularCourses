@@ -1,0 +1,39 @@
+.service-box {
+    float: left;
+    margin:25px;
+    height:250px;
+    width: 300px;
+    box-shadow: 5px 5px 10px ghostwhite;
+    position: relative;
+    background-color: rgb(243, 233, 233);
+}
+#service-img #service-img img {
+    height:100%;
+    width:100%;
+}
+#title {
+    position: absolute;
+    bottom: 20px;
+    width:100%;
+    min-height: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(153, 144, 144);
+    text-shadow: 2px 2px 2px gainsboro;
+    font-size: 20px;
+}
+#desc {
+    position: absolute;
+    top: 105px;
+    width:100%;
+    min-height: 30px;
+    /*padding-top:10px;*/
+   /* padding-bottom: 10px;*/
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(23, 22, 22);
+    /*text-shadow: 2px 2px 2px gainsboro;*/
+    font-size: 16px;
+}

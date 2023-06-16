@@ -1,0 +1,21 @@
+.logo {
+    padding: 2px;
+    width: 70px;
+    height: 50px;
+}
+.hrline {
+    width:100%;
+    height: 2%;
+   }
+   .logoRtitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color:red;
+    vertical-align: middle;
+   }
+   .logoBtitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    color:black;
+    vertical-align: middle;
+   }
